@@ -1,4 +1,8 @@
-﻿.color1 {
+﻿/* These color classes are placeholders so I don't lose track of the palette. */
+
+
+
+.color1 {
 	color:#E65076;
 }
 .color2 {
@@ -23,7 +27,8 @@ body {
 header, section, footer {
 	width: 80%;
 	margin-left: 10%;
-	background-color: #B1D264;
+	background-color: #B1D264; /* This is definitely going to change. Don't worry, I know it looks horrible. */
+	display:inline-block;
 }
 nav {
 	float: left;
@@ -33,7 +38,41 @@ article {
 	float:right;
 	width:70%;
 	text-align: center;
+	display:inline-block;
 }
+/* I'm going to change all of these defaults - like color and pixel size - once we get a better layout ready. */
 h1 {
 	font-family:Garamond;
+}
+
+/* I hate working with pixels and em - they're just too static - so just note that these measurements will probably change at some point. */
+
+.pfp {
+	
+	width:100px;
+	height:100px;
+	border: 5px #088C9B inset;
+	border-radius:10000px;
+	transition:all .5s ease;
+}
+.person:hover .pfp {
+	/* I have a feeling this is a little too big. We'll see. */
+	width:120px;
+	height:120px;
+}
+.person h3 {
+	transition:all .5s ease;
+	font-style:italic;
+}
+.person:hover h3 {	
+	font-style:oblique;
+	font-size: 1.5em;
+}
+.person h4 {
+	transition:all .5s ease;
+	font-style:italic;
+}
+.person:hover h4 {
+	font-style:oblique;
+	font-size:1.17em;
 }
