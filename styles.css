@@ -1,0 +1,39 @@
+﻿.color1 {
+	color:#E65076;
+}
+.color2 {
+	color:#F36A19;
+}
+.color3 {
+	color:#D12233;
+}
+.color4 {
+	color:#A5B33A;
+}
+.color5 {
+	color:#088C9B;
+}
+.color6 {
+	color:#392B69;
+}
+body {
+	background-color:#088C9B;
+}
+
+header, section, footer {
+	width: 80%;
+	margin-left: 10%;
+	background-color: #B1D264;
+}
+nav {
+	float: left;
+	width:30%;
+}
+article {
+	float:right;
+	width:70%;
+	text-align: center;
+}
+h1 {
+	font-family:Garamond;
+}
