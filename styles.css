@@ -1,7 +1,5 @@
 ﻿/* These color classes are placeholders so I don't lose track of the palette. */
 
-
-
 .color1 {
 	color:#E65076;
 }
@@ -24,11 +22,16 @@ body {
 	background-color:#088C9B;
 }
 
+section {
+	margin-bottom:-4px;
+}
+
 header, section, footer {
 	width: 80%;
 	margin-left: 10%;
 	display:inline-block;
 }
+
 header {
 	background-color:#392B69;
 }
@@ -36,7 +39,8 @@ nav {
 	float: left;
 	width:30%;
 	background-color:#F36A19;
-	height:100%;
+	height:90%;
+	display:block;
 }
 article {
 	float:right;
