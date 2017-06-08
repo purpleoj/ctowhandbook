@@ -27,18 +27,26 @@ body {
 header, section, footer {
 	width: 80%;
 	margin-left: 10%;
-	background-color: #B1D264; /* This is definitely going to change. Don't worry, I know it looks horrible. */
 	display:inline-block;
+}
+header {
+	background-color:#392B69;
 }
 nav {
 	float: left;
 	width:30%;
+	background-color:#F36A19;
+	height:100%;
 }
 article {
 	float:right;
 	width:70%;
 	text-align: center;
 	display:inline-block;
+	background-color: #B1D264;
+}
+footer {
+	background-color:#D12233;
 }
 /* I'm going to change all of these defaults - like color and pixel size - once we get a better layout ready. */
 h1 {
